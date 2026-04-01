@@ -3,6 +3,7 @@ import { motion } from 'motion/react';
 import { Shield, Zap, Smartphone, BarChart3, Globe, Users } from 'lucide-react';
 import { PageLayout } from '../components/PageLayout';
 import { PageHeader } from '../components/PageHeader';
+import { InteractiveShowcase } from '../components/InteractiveShowcase';
 
 const features = [
   {
@@ -62,6 +63,8 @@ export const Features = () => {
             </motion.div>
           ))}
         </div>
+        
+        <InteractiveShowcase />
     </PageLayout>
   );
 };

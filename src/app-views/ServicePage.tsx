@@ -1,5 +1,10 @@
 import { PageLayout } from '../components/PageLayout';
 import { PageHeader } from '../components/PageHeader';
+import { TransactionFlow } from '../components/TransactionFlow';
+import { HardwareCarousel } from '../components/HardwareCarousel';
+import { MobilePaymentsShowcase } from '../components/MobilePaymentsShowcase';
+import { EcommerceSolutions } from '../components/EcommerceSolutions';
+import { FraudPreventionDashboard } from '../components/FraudPreventionDashboard';
 
 export const ServicePage = ({ slug }: { slug: string }) => {
   const title = slug?.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
@@ -38,6 +43,12 @@ export const ServicePage = ({ slug }: { slug: string }) => {
             </ul>
           </div>
         </div>
+
+        {slug === 'payment-processing' && <TransactionFlow />}
+        {slug === 'pos-solutions' && <HardwareCarousel />}
+        {slug === 'mobile-payments' && <MobilePaymentsShowcase />}
+        {slug === 'e-commerce-solutions' && <EcommerceSolutions />}
+        {slug === 'fraud-prevention' && <FraudPreventionDashboard />}
     </PageLayout>
   );
 };

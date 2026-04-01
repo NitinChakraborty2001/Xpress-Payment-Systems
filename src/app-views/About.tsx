@@ -1,12 +1,13 @@
 import { PageLayout } from '../components/PageLayout';
 import { PageHeader } from '../components/PageHeader';
+import { CoreValuesBento } from '../components/CoreValuesBento';
 import Image from 'next/image';
 
 export const About = () => {
   return (
     <PageLayout>
       <PageHeader title="About Xpress Payment Systems" align="left" />
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6 text-lg text-white/80 leading-relaxed">
             <p>
               Xpress Payment Systems delivers secure, efficient online and mobile payment processing and point-of-sale (POS) solutions tailored for retail, hospitality, healthcare, education, and e-commerce businesses.
@@ -29,6 +30,8 @@ export const About = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
           </div>
         </div>
+        
+        <CoreValuesBento />
     </PageLayout>
   );
 };
