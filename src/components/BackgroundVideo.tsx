@@ -48,4 +48,6 @@ const BackgroundVideo = memo(({ src }: BackgroundVideoProps) => {
   );
 });
 
+BackgroundVideo.displayName = 'BackgroundVideo';
+
 export default BackgroundVideo;

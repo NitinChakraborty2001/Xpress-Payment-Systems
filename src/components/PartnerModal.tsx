@@ -56,7 +56,7 @@ export const PartnerModal = ({ isOpen, onClose }: PartnerModalProps) => {
                     </div>
                   </div>
                   <h3 className="text-2xl font-bold mb-2">Application Received!</h3>
-                  <p className="text-white/70">We'll be in touch with you shortly.</p>
+                  <p className="text-white/70">We&apos;ll be in touch with you shortly.</p>
                 </div>
               ) : (
                 <>

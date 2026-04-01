@@ -1,5 +1,6 @@
 "use client";
 import { motion } from 'motion/react';
+import Image from 'next/image';
 
 const avatars = [
   'https://i.pravatar.cc/150?u=1',
@@ -19,10 +20,12 @@ export const SocialProof = () => {
     >
       <div className="flex -space-x-3">
         {avatars.map((src, i) => (
-          <img
+          <Image
             key={i}
             src={src}
             alt="User"
+            width={40}
+            height={40}
             className="w-10 h-10 rounded-full border-2 border-black object-cover"
             referrerPolicy="no-referrer"
           />
