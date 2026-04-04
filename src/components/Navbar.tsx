@@ -45,7 +45,7 @@ export const Navbar = () => {
       {/* Top Bar */}
       <div className="h-[5px] w-full bg-gradient-to-r from-[#ccf] via-[#e7d04c] to-[#31fb78]" />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between bg-black/20 backdrop-blur-md rounded-b-2xl">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between bg-black/20 backdrop-blur-md rounded-b-2xl">
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold tracking-tighter flex items-center gap-2">
           <div className="w-8 h-8 bg-gradient-to-br from-[#FF3300] to-[#EE7926] rounded-lg" />
@@ -109,7 +109,7 @@ export const Navbar = () => {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 w-full bg-black/95 backdrop-blur-xl border-t border-white/10 py-8 px-4 sm:px-6 flex flex-col gap-6 lg:hidden max-h-[80vh] overflow-y-auto"
+            className="absolute top-full left-0 w-full bg-black/95 backdrop-blur-xl border-t border-white/10 py-8 px-4 sm:px-6 lg:px-8 flex flex-col gap-6 lg:hidden max-h-[80vh] overflow-y-auto"
           >
             {navLinks.map((link) => (
               <div key={link.name} className="flex flex-col gap-4">

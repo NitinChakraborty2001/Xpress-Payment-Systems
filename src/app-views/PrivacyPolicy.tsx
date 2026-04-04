@@ -8,7 +8,7 @@ export const PrivacyPolicy = () => {
         title="Privacy Policy" 
         subtitle="How we handle and protect your data."
       />
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 text-white/80 space-y-8">
+      <div className="max-w-4xl mx-auto text-white/80 space-y-8 mt-8">
         <section>
           <h2 className="text-2xl font-bold text-white mb-4">1. Information We Collect</h2>
           <p>We collect information you provide directly to us, such as when you create or modify your account, request on-demand services, contact customer support, or otherwise communicate with us. This information may include: name, email, phone number, postal address, profile picture, payment method, and other information you choose to provide.</p>

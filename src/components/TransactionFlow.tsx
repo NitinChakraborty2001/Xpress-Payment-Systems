@@ -40,7 +40,7 @@ export const TransactionFlow = () => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between w-full">
           {steps.map((step, index) => {
             const Icon = step.icon;

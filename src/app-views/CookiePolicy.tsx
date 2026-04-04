@@ -8,7 +8,7 @@ export const CookiePolicy = () => {
         title="Cookie Policy" 
         subtitle="Understanding how we use cookies to improve your experience."
       />
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 text-white/80 space-y-8">
+      <div className="max-w-4xl mx-auto text-white/80 space-y-8 mt-8">
         <section>
           <h2 className="text-2xl font-bold text-white mb-4">1. What Are Cookies</h2>
           <p>Cookies are small pieces of text sent by your web browser by a website you visit. A cookie file is stored in your web browser and allows the Service or a third-party to recognize you and make your next visit easier and the Service more useful to you.</p>

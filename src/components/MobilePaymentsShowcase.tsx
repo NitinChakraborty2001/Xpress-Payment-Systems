@@ -40,7 +40,7 @@ export const MobilePaymentsShowcase = () => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-start relative">
           
           {/* Sticky Phone Mockup */}

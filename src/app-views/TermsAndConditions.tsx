@@ -8,7 +8,7 @@ export const TermsAndConditions = () => {
         title="Terms & Conditions" 
         subtitle="The rules and guidelines for using Xpress Payment Systems."
       />
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 py-16 text-white/80 space-y-8">
+      <div className="max-w-4xl mx-auto text-white/80 space-y-8 mt-8">
         <section>
           <h2 className="text-2xl font-bold text-white mb-4">1. Acceptance of Terms</h2>
           <p>By accessing and using our services, you accept and agree to be bound by the terms and provision of this agreement. In addition, when using these particular services, you shall be subject to any posted guidelines or rules applicable to such services.</p>

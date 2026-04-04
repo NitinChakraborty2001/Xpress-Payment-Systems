@@ -70,7 +70,7 @@ export const HardwareCarousel = () => {
         </p>
       </div>
 
-      <div className="max-w-6xl mx-auto px-4 relative">
+      <div className="max-w-6xl mx-auto relative">
         {/* Carousel Container */}
         <div className="relative bg-white/5 border border-white/10 rounded-3xl p-6 md:p-12 overflow-hidden shadow-2xl">
           <AnimatePresence mode="wait">

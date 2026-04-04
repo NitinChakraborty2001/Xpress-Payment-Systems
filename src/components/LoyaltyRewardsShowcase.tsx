@@ -12,7 +12,7 @@ const rewards = [
 export const LoyaltyRewardsShowcase = () => {
   return (
     <section className="py-16 mt-12 border-t border-white/10">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           
           {/* Left Column: Features */}
