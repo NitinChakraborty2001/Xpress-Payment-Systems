@@ -5,13 +5,14 @@ import { HardwareCarousel } from '../components/HardwareCarousel';
 import { MobilePaymentsShowcase } from '../components/MobilePaymentsShowcase';
 import { EcommerceSolutions } from '../components/EcommerceSolutions';
 import { FraudPreventionDashboard } from '../components/FraudPreventionDashboard';
+import { LoyaltyRewardsShowcase } from '../components/LoyaltyRewardsShowcase';
 
 export const ServicePage = ({ slug }: { slug: string }) => {
   const title = slug?.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
 
   return (
     <PageLayout>
-      <PageHeader title={title || 'Service'} align="left" />
+      <PageHeader title={title || 'Service'} align="center" />
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <p className="text-xl text-white/80 leading-relaxed">
@@ -49,6 +50,7 @@ export const ServicePage = ({ slug }: { slug: string }) => {
         {slug === 'mobile-payments' && <MobilePaymentsShowcase />}
         {slug === 'e-commerce-solutions' && <EcommerceSolutions />}
         {slug === 'fraud-prevention' && <FraudPreventionDashboard />}
+        {slug === 'customer-loyalty-programs' && <LoyaltyRewardsShowcase />}
     </PageLayout>
   );
 };

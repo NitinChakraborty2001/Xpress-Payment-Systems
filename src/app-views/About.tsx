@@ -6,7 +6,7 @@ import Image from 'next/image';
 export const About = () => {
   return (
     <PageLayout>
-      <PageHeader title="About Xpress Payment Systems" align="left" />
+      <PageHeader title="About Xpress Payment Systems" align="center" />
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="space-y-6 text-lg text-white/80 leading-relaxed">
             <p>
